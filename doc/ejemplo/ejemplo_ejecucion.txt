@@ -1,0 +1,160 @@
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 1
+##################################################################
+------------------------------------------------------------------
+|    MOVIL03 |    RELOJ01 |    MOVIL25 |    CAMAR04 |    EBOOK15 |
+|    EBOOK13 |    RELOJ26 |            |    EBOOK20 |    RELOJ27 |
+|    CAMAR22 |            |            |    RELOJ31 |    TABLE36 |
+|    TABLE24 |            |            |    TABLE32 |            |
+------------------------------------------------------------------
+------------------------------------------------------------------
+|    MOVIL05 |    MOVIL34 |    EBOOK09 |    CAMAR37 |    LAMPA02 |
+|    CAMAR06 |    EBOOK41 |    EBOOK10 |            |    RELOJ11 |
+|    TABLE14 |    MOVIL45 |    RELOJ38 |            |    TABLE40 |
+|            |            |            |            |            |
+------------------------------------------------------------------
+------------------------------------------------------------------
+|    CAMAR18 |    LAMPA30 |            |    LAMPA39 |            |
+|    EBOOK19 |            |            |            |            |
+|    RELOJ21 |            |            |            |            |
+|    RELOJ35 |            |            |            |            |
+------------------------------------------------------------------
+------------------------------------------------------------------
+|    LAMPA12 |    EBOOK07 |    RELOJ08 |    EBOOK43 |    EBOOK23 |
+|    MOVIL29 |    MOVIL46 |    EBOOK16 |    TABLE44 |    CAMAR28 |
+|    CAMAR33 |            |    RELOJ17 |            |    MOVIL47 |
+|            |            |    LAMPA42 |            |            |
+------------------------------------------------------------------
+##################################################################
+Hay 47 artículos.
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 2
+Identificador del artículo: EBOOK16
+El artículo EBOOK16 está en la balda 4 celda 3
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 2
+Identificador del artículo: EBOOK99
+El artículo EBOOK99 NO está en el armario
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 3
+    Identificador del artículo: ARTI99
+           Nombre del artículo: Artículo 99
+           Precio del artículo: 100
+El artículo ARTI99 se ha metido en la balda 1 celda 2
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 4
+    Identificador del artículo: ARTI33
+           Nombre del artículo: Artículo 33
+           Precio del artículo: 200
+  Número de la balda: 1
+  Número de la celda: 3
+El artículo ARTI33 se ha metido en la balda 1 celda 3
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 5
+Identificador del artículo: EBOOK13
+El artículo EBOOK13 está en la balda 1 celda 1
+Seguro que desea sacarlo [S/N]: s
+Artículo sacado
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 1
+##################################################################
+------------------------------------------------------------------
+|    MOVIL03 |    RELOJ01 |    MOVIL25 |    CAMAR04 |    EBOOK15 |
+|            |    RELOJ26 |     ARTI33 |    EBOOK20 |    RELOJ27 |
+|    CAMAR22 |     ARTI99 |            |    RELOJ31 |    TABLE36 |
+|    TABLE24 |            |            |    TABLE32 |            |
+------------------------------------------------------------------
+------------------------------------------------------------------
+|    MOVIL05 |    MOVIL34 |    EBOOK09 |    CAMAR37 |    LAMPA02 |
+|    CAMAR06 |    EBOOK41 |    EBOOK10 |            |    RELOJ11 |
+|    TABLE14 |    MOVIL45 |    RELOJ38 |            |    TABLE40 |
+|            |            |            |            |            |
+------------------------------------------------------------------
+------------------------------------------------------------------
+|    CAMAR18 |    LAMPA30 |            |    LAMPA39 |            |
+|    EBOOK19 |            |            |            |            |
+|    RELOJ21 |            |            |            |            |
+|    RELOJ35 |            |            |            |            |
+------------------------------------------------------------------
+------------------------------------------------------------------
+|    LAMPA12 |    EBOOK07 |    RELOJ08 |    EBOOK43 |    EBOOK23 |
+|    MOVIL29 |    MOVIL46 |    EBOOK16 |    TABLE44 |    CAMAR28 |
+|    CAMAR33 |            |    RELOJ17 |            |    MOVIL47 |
+|            |            |    LAMPA42 |            |            |
+------------------------------------------------------------------
+##################################################################
+Hay 48 artículos.
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 0

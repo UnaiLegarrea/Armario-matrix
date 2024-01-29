@@ -1,0 +1,44 @@
+@startuml
+class Loader {
+- {static} int NUM_ARTICULOS_INI
+- {static} int NUM_TIPO_ARTICULOS
+- {static} int NUM_BALDAS
+- {static} int NUM_CELDAS
+- {static} int MIN_PRECIO
+- {static} int MAX_PRECIO
+- {static} int numeroArticulo
+- {static} Random generadorAleatorio
++ {static} void cargarDatos(Armario)
+- {static} int getAleatorio(int)
+- {static} int getAleatorio()
+- {static} String getTipoArticulo(int)
+}
+class App {
+- {static} int OPC_EXIT
+- {static} int OPC_DISPLAY
+- {static} int OPC_QUERY
+- {static} int OPC_INSERT_FIRST
+- {static} int OPC_INSERT_POSITION
+- {static} int OPC_REMOVE
+- Armario armario
++ <<Create>> App()
++ void run()
+- boolean ejecutarOpcion(int)
+}
+class Gui {
++ {static} void mostrarMenu()
++ {static} int leerOpcion()
++ {static} String leerIdArticulo()
++ {static} Articulo leerArticulo()
++ {static} Posicion leerPosicion()
++ {static} boolean leerConfirmacion(String,String)
+}
+class Main {
++ {static} void main(String[])
+}
+
+Main .down.> App
+App .left.> Loader
+App .right.> Gui
+
+@enduml

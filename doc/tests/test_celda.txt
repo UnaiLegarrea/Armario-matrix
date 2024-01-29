@@ -1,0 +1,24 @@
+Celda vacía:
+--------------
+|            |
+|            |
+|            |
+|            |
+--------------
+Celda con 4 artículos:
+--------------
+|   PROD0001 |
+|   PROD0002 |
+|   PROD0003 |
+|   PROD0004 |
+--------------
+Celda tras sacar 2 artículos:
+--------------
+|   PROD0001 |
+|            |
+|   PROD0003 |
+|            |
+--------------
+Hay 2 artículos de una capacidad de 4
+Está el producto PROD0001 : true
+Está el producto PROD0002 : false

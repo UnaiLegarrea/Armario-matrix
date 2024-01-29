@@ -1,0 +1,404 @@
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 1
+###############################################################################
+-------------------------------------------------------------------------------
+|    EBOOK26 |    MOVIL03 |    EBOOK27 |    EBOOK25 |    EBOOK15 |    MOVIL22 |
+|    RELOJ39 |    CAMAR14 |            |    TABLE34 |    RELOJ31 |    CAMAR35 |
+|    LAMPA52 |    MOVIL59 |            |    TABLE36 |    EBOOK32 |    CAMAR50 |
+|            |    TABLE62 |            |    TABLE43 |    EBOOK48 |    CAMAR63 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL16 |    CAMAR33 |    LAMPA61 |            |    TABLE01 |    EBOOK07 |
+|    RELOJ21 |            |            |            |    EBOOK02 |    TABLE12 |
+|    MOVIL24 |            |            |            |    MOVIL46 |    EBOOK18 |
+|    MOVIL53 |            |            |            |            |    LAMPA54 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL41 |    LAMPA19 |            |    MOVIL44 |    EBOOK06 |    LAMPA23 |
+|    MOVIL45 |    CAMAR28 |            |    RELOJ66 |    EBOOK09 |    MOVIL38 |
+|    MOVIL58 |    EBOOK40 |            |            |    TABLE29 |    RELOJ60 |
+|            |    CAMAR56 |            |            |    MOVIL42 |            |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    RELOJ47 |    LAMPA37 |    CAMAR04 |    MOVIL65 |    LAMPA05 |    RELOJ08 |
+|    RELOJ49 |    RELOJ51 |    MOVIL57 |            |    MOVIL10 |    EBOOK11 |
+|    CAMAR55 |    MOVIL64 |            |            |    CAMAR20 |    RELOJ13 |
+|            |            |            |            |    LAMPA30 |    LAMPA17 |
+-------------------------------------------------------------------------------
+###############################################################################
+Hay 66 artículos.
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 2
+Identificador del artículo: MOVIL65
+El artículo MOVIL65 está en la fila 4 columna 4
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 2
+Identificador del artículo: MOVIL66
+El artículo MOVIL66 NO está en el armario
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 1
+###############################################################################
+-------------------------------------------------------------------------------
+|    EBOOK26 |    MOVIL03 |    EBOOK27 |    EBOOK25 |    EBOOK15 |    MOVIL22 |
+|    RELOJ39 |    CAMAR14 |            |    TABLE34 |    RELOJ31 |    CAMAR35 |
+|    LAMPA52 |    MOVIL59 |            |    TABLE36 |    EBOOK32 |    CAMAR50 |
+|            |    TABLE62 |            |    TABLE43 |    EBOOK48 |    CAMAR63 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL16 |    CAMAR33 |    LAMPA61 |            |    TABLE01 |    EBOOK07 |
+|    RELOJ21 |            |            |            |    EBOOK02 |    TABLE12 |
+|    MOVIL24 |            |            |            |    MOVIL46 |    EBOOK18 |
+|    MOVIL53 |            |            |            |            |    LAMPA54 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL41 |    LAMPA19 |            |    MOVIL44 |    EBOOK06 |    LAMPA23 |
+|    MOVIL45 |    CAMAR28 |            |    RELOJ66 |    EBOOK09 |    MOVIL38 |
+|    MOVIL58 |    EBOOK40 |            |            |    TABLE29 |    RELOJ60 |
+|            |    CAMAR56 |            |            |    MOVIL42 |            |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    RELOJ47 |    LAMPA37 |    CAMAR04 |    MOVIL65 |    LAMPA05 |    RELOJ08 |
+|    RELOJ49 |    RELOJ51 |    MOVIL57 |            |    MOVIL10 |    EBOOK11 |
+|    CAMAR55 |    MOVIL64 |            |            |    CAMAR20 |    RELOJ13 |
+|            |            |            |            |    LAMPA30 |    LAMPA17 |
+-------------------------------------------------------------------------------
+###############################################################################
+Hay 66 artículos.
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 3
+    Identificador del artículo: XXXXX99
+           Nombre del artículo: Nombre XXX
+           Precio del artículo: 999
+El artículo XXXXX99 se ha metido en la fila 1 columna 1
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 3
+    Identificador del artículo: AAAAA11
+           Nombre del artículo: Nombre AAA
+           Precio del artículo: 111
+El artículo AAAAA11 se ha metido en la fila 1 columna 3
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 1
+###############################################################################
+-------------------------------------------------------------------------------
+|    EBOOK26 |    MOVIL03 |    EBOOK27 |    EBOOK25 |    EBOOK15 |    MOVIL22 |
+|    RELOJ39 |    CAMAR14 |    AAAAA11 |    TABLE34 |    RELOJ31 |    CAMAR35 |
+|    LAMPA52 |    MOVIL59 |            |    TABLE36 |    EBOOK32 |    CAMAR50 |
+|    XXXXX99 |    TABLE62 |            |    TABLE43 |    EBOOK48 |    CAMAR63 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL16 |    CAMAR33 |    LAMPA61 |            |    TABLE01 |    EBOOK07 |
+|    RELOJ21 |            |            |            |    EBOOK02 |    TABLE12 |
+|    MOVIL24 |            |            |            |    MOVIL46 |    EBOOK18 |
+|    MOVIL53 |            |            |            |            |    LAMPA54 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL41 |    LAMPA19 |            |    MOVIL44 |    EBOOK06 |    LAMPA23 |
+|    MOVIL45 |    CAMAR28 |            |    RELOJ66 |    EBOOK09 |    MOVIL38 |
+|    MOVIL58 |    EBOOK40 |            |            |    TABLE29 |    RELOJ60 |
+|            |    CAMAR56 |            |            |    MOVIL42 |            |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    RELOJ47 |    LAMPA37 |    CAMAR04 |    MOVIL65 |    LAMPA05 |    RELOJ08 |
+|    RELOJ49 |    RELOJ51 |    MOVIL57 |            |    MOVIL10 |    EBOOK11 |
+|    CAMAR55 |    MOVIL64 |            |            |    CAMAR20 |    RELOJ13 |
+|            |            |            |            |    LAMPA30 |    LAMPA17 |
+-------------------------------------------------------------------------------
+###############################################################################
+Hay 68 artículos.
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 3
+    Identificador del artículo: BBBBB22
+           Nombre del artículo: Nombre BBB
+           Precio del artículo: 222
+El artículo BBBBB22 se ha metido en la fila 1 columna 3
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 3
+    Identificador del artículo: CCCCC33
+           Nombre del artículo: Nombre CCC
+           Precio del artículo: 333
+El artículo CCCCC33 se ha metido en la fila 1 columna 3
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 3
+    Identificador del artículo: DDDDD4
+           Nombre del artículo: Nombre DDD
+           Precio del artículo: 444
+El artículo DDDDD4 se ha metido en la fila 2 columna 2
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 1
+###############################################################################
+-------------------------------------------------------------------------------
+|    EBOOK26 |    MOVIL03 |    EBOOK27 |    EBOOK25 |    EBOOK15 |    MOVIL22 |
+|    RELOJ39 |    CAMAR14 |    AAAAA11 |    TABLE34 |    RELOJ31 |    CAMAR35 |
+|    LAMPA52 |    MOVIL59 |    BBBBB22 |    TABLE36 |    EBOOK32 |    CAMAR50 |
+|    XXXXX99 |    TABLE62 |    CCCCC33 |    TABLE43 |    EBOOK48 |    CAMAR63 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL16 |    CAMAR33 |    LAMPA61 |            |    TABLE01 |    EBOOK07 |
+|    RELOJ21 |     DDDDD4 |            |            |    EBOOK02 |    TABLE12 |
+|    MOVIL24 |            |            |            |    MOVIL46 |    EBOOK18 |
+|    MOVIL53 |            |            |            |            |    LAMPA54 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL41 |    LAMPA19 |            |    MOVIL44 |    EBOOK06 |    LAMPA23 |
+|    MOVIL45 |    CAMAR28 |            |    RELOJ66 |    EBOOK09 |    MOVIL38 |
+|    MOVIL58 |    EBOOK40 |            |            |    TABLE29 |    RELOJ60 |
+|            |    CAMAR56 |            |            |    MOVIL42 |            |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    RELOJ47 |    LAMPA37 |    CAMAR04 |    MOVIL65 |    LAMPA05 |    RELOJ08 |
+|    RELOJ49 |    RELOJ51 |    MOVIL57 |            |    MOVIL10 |    EBOOK11 |
+|    CAMAR55 |    MOVIL64 |            |            |    CAMAR20 |    RELOJ13 |
+|            |            |            |            |    LAMPA30 |    LAMPA17 |
+-------------------------------------------------------------------------------
+###############################################################################
+Hay 71 artículos.
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 4
+    Identificador del artículo: ZZZZZ88
+           Nombre del artículo: Nombre ZZZ
+           Precio del artículo: 888
+  Número de la fila:    3
+  Número de la columna: 3
+El artículo ZZZZZ88 se ha metido en la fila 3 columna 3
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 4
+    Identificador del artículo: YYYYY77
+           Nombre del artículo: Nombre YYY
+           Precio del artículo: 777
+  Número de la fila:    3
+  Número de la columna: 3
+El artículo YYYYY77 se ha metido en la fila 3 columna 3
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 1
+###############################################################################
+-------------------------------------------------------------------------------
+|    EBOOK26 |    MOVIL03 |    EBOOK27 |    EBOOK25 |    EBOOK15 |    MOVIL22 |
+|    RELOJ39 |    CAMAR14 |    AAAAA11 |    TABLE34 |    RELOJ31 |    CAMAR35 |
+|    LAMPA52 |    MOVIL59 |    BBBBB22 |    TABLE36 |    EBOOK32 |    CAMAR50 |
+|    XXXXX99 |    TABLE62 |    CCCCC33 |    TABLE43 |    EBOOK48 |    CAMAR63 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL16 |    CAMAR33 |    LAMPA61 |            |    TABLE01 |    EBOOK07 |
+|    RELOJ21 |     DDDDD4 |            |            |    EBOOK02 |    TABLE12 |
+|    MOVIL24 |            |            |            |    MOVIL46 |    EBOOK18 |
+|    MOVIL53 |            |            |            |            |    LAMPA54 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL41 |    LAMPA19 |    ZZZZZ88 |    MOVIL44 |    EBOOK06 |    LAMPA23 |
+|    MOVIL45 |    CAMAR28 |    YYYYY77 |    RELOJ66 |    EBOOK09 |    MOVIL38 |
+|    MOVIL58 |    EBOOK40 |            |            |    TABLE29 |    RELOJ60 |
+|            |    CAMAR56 |            |            |    MOVIL42 |            |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    RELOJ47 |    LAMPA37 |    CAMAR04 |    MOVIL65 |    LAMPA05 |    RELOJ08 |
+|    RELOJ49 |    RELOJ51 |    MOVIL57 |            |    MOVIL10 |    EBOOK11 |
+|    CAMAR55 |    MOVIL64 |            |            |    CAMAR20 |    RELOJ13 |
+|            |            |            |            |    LAMPA30 |    LAMPA17 |
+-------------------------------------------------------------------------------
+###############################################################################
+Hay 73 artículos.
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 5
+Identificador del artículo: ZZZZZ88
+El artículo ZZZZZ88 está en la fila 3 columna 3
+Seguro que desea sacarlo [S/N]: s
+Artículo sacado
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 5
+Identificador del artículo: EBOOK26
+El artículo EBOOK26 está en la fila 1 columna 1
+Seguro que desea sacarlo [S/N]: s
+Artículo sacado
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 1
+###############################################################################
+-------------------------------------------------------------------------------
+|            |    MOVIL03 |    EBOOK27 |    EBOOK25 |    EBOOK15 |    MOVIL22 |
+|    RELOJ39 |    CAMAR14 |    AAAAA11 |    TABLE34 |    RELOJ31 |    CAMAR35 |
+|    LAMPA52 |    MOVIL59 |    BBBBB22 |    TABLE36 |    EBOOK32 |    CAMAR50 |
+|    XXXXX99 |    TABLE62 |    CCCCC33 |    TABLE43 |    EBOOK48 |    CAMAR63 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL16 |    CAMAR33 |    LAMPA61 |            |    TABLE01 |    EBOOK07 |
+|    RELOJ21 |     DDDDD4 |            |            |    EBOOK02 |    TABLE12 |
+|    MOVIL24 |            |            |            |    MOVIL46 |    EBOOK18 |
+|    MOVIL53 |            |            |            |            |    LAMPA54 |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    MOVIL41 |    LAMPA19 |            |    MOVIL44 |    EBOOK06 |    LAMPA23 |
+|    MOVIL45 |    CAMAR28 |    YYYYY77 |    RELOJ66 |    EBOOK09 |    MOVIL38 |
+|    MOVIL58 |    EBOOK40 |            |            |    TABLE29 |    RELOJ60 |
+|            |    CAMAR56 |            |            |    MOVIL42 |            |
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+|    RELOJ47 |    LAMPA37 |    CAMAR04 |    MOVIL65 |    LAMPA05 |    RELOJ08 |
+|    RELOJ49 |    RELOJ51 |    MOVIL57 |            |    MOVIL10 |    EBOOK11 |
+|    CAMAR55 |    MOVIL64 |            |            |    CAMAR20 |    RELOJ13 |
+|            |            |            |            |    LAMPA30 |    LAMPA17 |
+-------------------------------------------------------------------------------
+###############################################################################
+Hay 71 artículos.
+*****************************************
+*       A   R   M   A   R   I   O       *
+*****************************************
+ 1. Ver armario
+ 2. Consultar artículo
+ 3. Insertar artículo primer hueco
+ 4. Insertar artículo en una posición
+ 5. Sacar artículo
+ 0. Exit
+*****************************************
+Opción: 0
