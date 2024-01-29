@@ -6,16 +6,36 @@
 public class Armario {
 
     // region atributos
-
+    private Celda[][] armario;
+    private int total;
     // endregion
 
     // region constructores
-    public Armario(int filas, int columnas) {
 
+    /**
+     *
+     * @param filas numero de filas de nuestra matriz, si es mayor que el limite de filas
+     * se inicializa al limite
+     * @param columnas numero de columnas de nuestra matriz, si es mayor que el limite de
+     * columnas
+     * se inicializa al limite
+     */
+    public Armario(int filas, int columnas) {
+        armario = new Celda [filas][columnas];
+        if(filas>Ctes.LIM_FILAS){
+            armario = new Celda[Ctes.LIM_FILAS][columnas];
+        }
+        if (columnas>Ctes.LIM_COLUMNAS){
+            armario = new Celda[armario.length][Ctes.LIM_COLUMNAS];
+        }
+        total = 0;
     }
     // endregion
 
     // region getter y setter
+    /**
+     * metodo que recorre la matriz armario y devuelve la cantidad de articulos que hay en ella
+     */
     public int getCantidadArticulos() {
         int n = 0;
         return n;

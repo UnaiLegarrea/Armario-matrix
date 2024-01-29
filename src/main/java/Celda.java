@@ -1,17 +1,21 @@
 public class Celda {
 
     // region atributos
-
+    private Articulo[] celda;
+    private int total;
     // endregion
 
 
+    /**
+     * Constructor que inicializa el array celda a la constante LIM_ARTICULOS
+     */
     public Celda() {
-
+        celda = new Articulo[Ctes.LIM_ARTICULOS];
     }
 
     // region getter y setter
     public int getCapacidadArticulos() {
-        return 0;
+        return celda.length;
     }
 
     /**
@@ -21,11 +25,15 @@ public class Celda {
      * @return referencia al artículo correspondiente, puede ser null
      */
     public Articulo getArticulo(int numeroArticulo) {
-        return null;
+        return celda[numeroArticulo];
     }
-
     public int getCantidadArticulos() {
         int n = 0;
+        for (int i = 0; i < celda.length; i++) {
+            if (!estaVacio(i)){
+                n++;
+            }
+        }
         return n;
     }
     // endregion
@@ -40,9 +48,8 @@ public class Celda {
      * @return verdadero si coincide
      */
     private boolean esArticulo(String id, int numeroArticulo) {
-        return false;
+        return id==celda[numeroArticulo].getId();
     }
-
     /**
      * Si la posición no tiene una referencia a un artículo
      * @param numeroArticulo valor del 1 a la capacidad de la celda
@@ -50,21 +57,30 @@ public class Celda {
      * @return verdadero si no hay una referencia a un objeto (es decir, es null)
      */
     private boolean estaVacio(int numeroArticulo) {
-        return false;
+        return celda[numeroArticulo] == null;
     }
     // endregion
 
     // region CRUD
 
     public boolean haySitio() {
-        return false;
+        return getCantidadArticulos()<4;
     }
 
     public boolean estaArticulo(String id) {
+        for (int i = 0; i < celda.length; i++) {
+            if (esArticulo(id,i)){return true;}
+        }
         return false;
     }
 
     public boolean insertarArticulo(Articulo articulo) {
+        for (int i = 0; i < celda.length; i++) {
+            if (estaVacio(i)){
+                celda[i]=articulo;
+                return true;
+            }
+        }
         return false;
     }
 
