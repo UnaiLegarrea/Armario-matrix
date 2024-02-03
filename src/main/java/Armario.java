@@ -7,7 +7,6 @@ public class Armario {
 
     // region atributos
     private Celda[][] armario;
-    private int total;
     // endregion
 
     // region constructores
@@ -28,7 +27,6 @@ public class Armario {
         if (columnas>Ctes.LIM_COLUMNAS){
             armario = new Celda[armario.length][Ctes.LIM_COLUMNAS];
         }
-        total = 0;
     }
     // endregion
 
@@ -38,6 +36,11 @@ public class Armario {
      */
     public int getCantidadArticulos() {
         int n = 0;
+        for (int i = 0; i < armario.length; i++) {
+            for (int j = 0; j < armario[i].length; j++) {
+                n += armario[i][j].getCantidadArticulos();
+            }
+        }
         return n;
     }
 

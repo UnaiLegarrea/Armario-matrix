@@ -2,7 +2,6 @@ public class Celda {
 
     // region atributos
     private Articulo[] celda;
-    private int total;
     // endregion
 
 
