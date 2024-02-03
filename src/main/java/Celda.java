@@ -63,17 +63,31 @@ public class Celda {
 
     // region CRUD
 
+    /**
+     *@return  true si la cantidad de articulos es menor que 4 sino devuelve false
+     *
+     */
     public boolean haySitio() {
         return getCantidadArticulos()<4;
     }
 
+    /**
+     *
+     * @param id del articulo que buscamos
+     * @return true si esta el articulo sino devuelve false
+     */
     public boolean estaArticulo(String id) {
         for (int i = 0; i < celda.length; i++) {
-            if (esArticulo(id,i)){return true;}
+            if (celda[i]!=null && esArticulo(id,i)){return true;}
         }
         return false;
     }
 
+    /**
+     *
+     * @param articulo que se quiere insertar en nuestro array
+     * @return true si se ha conseguido insertar sino false
+     */
     public boolean insertarArticulo(Articulo articulo) {
         for (int i = 0; i < celda.length; i++) {
             if (estaVacio(i)){
@@ -84,13 +98,31 @@ public class Celda {
         return false;
     }
 
+    /**
+     *
+     * @param id del articulo que queremos sacar
+     * @return devuelve true si hemos conseguido sacar el articulo
+     */
+
     public boolean sacarArticulo(String id) {
+        for (int i = 0; i < celda.length; i++) {
+            if (esArticulo(id,i)){
+                for (int j = i; j < celda.length-1; j++) {
+                    celda[j] = celda[j+1];
+                }
+                celda[celda.length-1] = null;
+                return true;
+            }
+        }
         return false;
     }
     // endregion
 
     public void pintar() {
-
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < celda.length; i++) {
+            System.out.printf("|%11s |\n",celda[i]);
+        }
     }
 
 }
