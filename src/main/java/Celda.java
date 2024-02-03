@@ -2,6 +2,7 @@ public class Celda {
 
     // region atributos
     private Articulo[] celda;
+    private int total;
     // endregion
 
 
@@ -10,6 +11,7 @@ public class Celda {
      */
     public Celda() {
         celda = new Articulo[Ctes.LIM_ARTICULOS];
+        total = 0;
     }
 
     // region getter y setter
@@ -28,7 +30,7 @@ public class Celda {
     }
     public int getCantidadArticulos() {
         int n = 0;
-        for (int i = 0; i < celda.length; i++) {
+        for (int i = 0; i < total; i++) {
             if (!estaVacio(i)){
                 n++;
             }
@@ -76,7 +78,7 @@ public class Celda {
      * @return true si esta el articulo sino devuelve false
      */
     public boolean estaArticulo(String id) {
-        for (int i = 0; i < celda.length; i++) {
+        for (int i = 0; i < total; i++) {
             if (celda[i]!=null && esArticulo(id,i)){return true;}
         }
         return false;
@@ -91,6 +93,7 @@ public class Celda {
         for (int i = 0; i < celda.length; i++) {
             if (estaVacio(i)){
                 celda[i]=articulo;
+                total++;
                 return true;
             }
         }
@@ -104,12 +107,12 @@ public class Celda {
      */
 
     public boolean sacarArticulo(String id) {
-        for (int i = 0; i < celda.length; i++) {
+        for (int i = 0; i < total; i++) {
             if (esArticulo(id,i)){
-                for (int j = i; j < celda.length-1; j++) {
+                for (int j = i; j < total-1; j++) {
                     celda[j] = celda[j+1];
                 }
-                celda[celda.length-1] = null;
+                celda[total-1] = null;
                 return true;
             }
         }
@@ -118,9 +121,9 @@ public class Celda {
     // endregion
 
     public void pintar() {
-        StringBuilder sb = new StringBuilder();
         for (int i = 0; i < celda.length; i++) {
-            System.out.printf("|%11s |\n",celda[i]);
+            if (celda[i]== null){System.out.printf("|%11s |\n"," ");}
+            else{System.out.printf("|%11s |\n",celda[i]);};
         }
     }
 
