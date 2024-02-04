@@ -100,44 +100,56 @@ public class Armario {
         return null;
     }
 
+    /**
+     * Inserta un articulo en la primera posición libre de una celda.
+     *
+     * @param articulo referencia del articulo
+     * @param posicion referencia a la posición donde se va a insertar el articulo
+     * @return true si se ha conseguido insertar o false si no se consigue
+     */
     public boolean insertarArticulo(Articulo articulo, Posicion posicion) {
-        return true;
+        if (posicion.getNumeroFila()>armario.length||posicion.getNumeroColumna()>armario[0].length){return false;}
+        if (armario[posicion.getNumeroFila()-1][posicion.getNumeroColumna()-1].haySitio()){
+            armario[posicion.getNumeroFila()-1][posicion.getNumeroColumna()-1].insertarArticulo(articulo);
+            return true;
+        }
+        return false;
     }
 
+    /**
+     * saca un articulo del armario
+     * @param id del articulo que se quiere sacar
+     * @return evuelve la posición en la que se ha sacado o null si el no existe el articulo.
+     *      *         La posición considera que la primera fila y columna empiezan en 1.
+     */
     public Posicion sacarArticulo(String id) {
+        for (int i = 0; i < armario.length; i++) {
+            for (int j = 0; j < armario[i].length; j++) {
+                if (armario[i][j].sacarArticulo(id)){return new Posicion(i+1,j+1);}
+            }
+        }
         return null;
     }
     // endregion
 
-//    for (int fila = 1; fila <= n; fila++) {
-//        for (int colum = 1; colum <= LIMITE_CELDAS; colum++) {
-//            Articulo articulo = getCelda(colum).getArticulo(fila);
-//            if (articulo != null) {
-//                System.out.printf("|%10s |", articulo.getId());
-//            } else {
-//                System.out.printf("|%10s |", " ");
-//            }
-//        }
-//        System.out.println();
-//    }
-//        System.out.println("-".repeat(1 + 13 * LIMITE_CELDAS));
+
     public void pintar() {
 
-        System.out.println("#".repeat(14*armario.length));
+        System.out.println("#".repeat(14*armario[0].length+1));
         for (int i = 0; i < armario.length; i++) {
-            System.out.println("-".repeat(14*armario.length));
-            for (int j = 0; j < armario[i].length; j++) {
-                for (int k = 0; k <Ctes.LIM_ARTICULOS; k++) {
-                    if (armario[i][j]==null|| armario[i][j].getArticulo(k) ==null){System.out.printf("|%12s "," ");}
+            System.out.println("-".repeat(14*armario[0].length+1));
+            for (int k = 0; k < Ctes.LIM_ARTICULOS; k++) {
+                for (int j = 0; j < armario[i].length; j++) {
+                    if (armario[i][j].getArticulo(k) ==null){System.out.printf("|%12s "," ");}
                     else{
                         System.out.printf("|%12s ",armario[i][j].getArticulo(k));
                     }
                 }
                 System.out.print("|\n");
             }
-            System.out.println("-".repeat(14*armario.length));
+            System.out.println("-".repeat(14*armario[0].length+1));
         }
-        System.out.println("#".repeat(14*armario.length));
+        System.out.println("#".repeat(14*armario[0].length+1));
     }
 
 }

@@ -49,7 +49,7 @@ public class Celda {
      * @return verdadero si coincide
      */
     private boolean esArticulo(String id, int numeroArticulo) {
-        return id==celda[numeroArticulo].getId();
+        return id.equals(celda[numeroArticulo].getId());
     }
     /**
      * Si la posición no tiene una referencia a un artículo
@@ -108,11 +108,12 @@ public class Celda {
 
     public boolean sacarArticulo(String id) {
         for (int i = 0; i < total; i++) {
-            if (esArticulo(id,i)){
+            if (celda[i]!=null&&esArticulo(id,i)){
                 for (int j = i; j < total-1; j++) {
                     celda[j] = celda[j+1];
                 }
                 celda[total-1] = null;
+                total--;
                 return true;
             }
         }
